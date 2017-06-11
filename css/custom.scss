@@ -1,0 +1,120 @@
+/**************************************************************/
+/******************    Custom Stylesheet    *******************/
+/*******************   by Corey Sizemore   ********************/
+/*******************     version 1.0       ********************/
+/**************************************************************/
+
+
+#home_logo {
+	
+	#logo_home {
+		
+		h1 {
+			
+			a:link,
+			a:visited {
+				font-size: 45px;
+			}
+		}
+	}
+}
+
+header.home_default_image {
+	background: url('../img/header1.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header.page_default_image {
+	background: url('../img/header1.jpg') no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.main.home {
+	.main_cushion {
+		.content {
+			h1,h2,h3,h4,p {
+				color: #ffffff;
+			}
+		}
+	}
+}
+
+.sidebar {
+	.angies_wrapper {
+		img {
+			display: block;
+			height: auto;
+			margin: 0 auto 20px auto;
+			width: 140px;
+		}
+	}
+}
+
+
+@media (min-width: 980px) and (max-width: 1220px) {
+	
+}
+	
+@media (min-width: 768px) and (max-width: 979px) {
+	
+	header.header_page.page_default_image {
+		background: url('../img/header1_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	header.home_default_image {
+		background: url('../img/header1_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+}
+	
+@media (min-width: 480px) and (max-width: 767px) {
+	
+	header.header_page.page_default_image {
+		background: url('../img/header1_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	header.home_default_image {
+		background: url('../img/header1_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+}
+	
+@media (min-width: 0px) and (max-width: 479px) {
+	
+	header.header_page.page_default_image {
+		background: url('../img/header1_mobile.jpg') no-repeat;
+		background-size: 100%;
+		background-attachment: fixed;
+	}
+	
+	header.home_default_image {
+		background: url('../img/header1_mobile.jpg') no-repeat;
+		background-size: 120%;
+		background-attachment: fixed;
+	}
+	
+	#home_logo {
+	
+	#logo_home {
+		
+		h1 {
+			
+			a:link,
+			a:visited {
+				font-size: 25px;
+			}
+		}
+	}
+}
+	
+}
